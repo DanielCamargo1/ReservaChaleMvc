@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2bQW0pFRv5v7TnvEZYxlWPMfwLauS7+4xQwQb8XI6tmz3kLcHx1s4bvQSCYYd/oh/Tz9Rd2DPGVavZqEKQs/ZA==",
+  "dgSpecHash": "WKVfrAe0BifkjCmkk+l8xoUXE18q99ilG1wNeuU7omDMYHQvL7okyPN7k18RJv+WUQ+Zkyz6mV0+nTRuW+ZGGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
+  "projectFilePath": "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\danid\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.27\\microsoft.entityframeworkcore.6.0.27.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj": {}
+    "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj": {
+    "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
+        "projectUniqueName": "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
         "projectName": "ReservaDeChaleMvc",
-        "projectPath": "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
+        "projectPath": "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc.csproj",
         "packagesPath": "C:\\Users\\danid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danid\\Desktop\\CursoMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\obj\\",
+        "outputPath": "C:\\Users\\danid\\Desktop\\reservaMvc\\ReservaDeChaleMvc\\ReservaDeChaleMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danid\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ReservaDeChaleMvc.Data;
+
 namespace ReservaDeChaleMvc
 {
     public class Program
@@ -6,6 +9,11 @@ namespace ReservaDeChaleMvc
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            var ConnString = builder.Configuration.GetConnectionString("ConnectionMysql");
+            builder.Services.AddDbContext<ReservaDbContext>(options =>
+            {
+                options.UseMySql(ConnString, ServerVersion.AutoDetect(ConnString));
+            });
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
