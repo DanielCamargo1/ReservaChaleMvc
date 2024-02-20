@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaDeChaleMvc", "ReservaDeChaleMvc\ReservaDeChaleMvc.csproj", "{7D7FCE1A-E100-4443-9D14-914DBA37CD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7FCE1A-E100-4443-9D14-914DBA37CD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7FCE1A-E100-4443-9D14-914DBA37CD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7FCE1A-E100-4443-9D14-914DBA37CD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7FCE1A-E100-4443-9D14-914DBA37CD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A82CEF5-1AB6-4E01-BE47-D57364710121}
+	EndGlobalSection
+EndGlobal
