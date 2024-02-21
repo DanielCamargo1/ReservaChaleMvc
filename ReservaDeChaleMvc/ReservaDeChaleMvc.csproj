@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\imagem\AguiaDois.png" />
+    <None Include="wwwroot\imagem\aguiaUm.jpg" />
+    <None Include="wwwroot\imagem\AguiaUm.png" />
+    <None Include="wwwroot\imagem\backgroundIntruções.png" />
+    <None Include="wwwroot\imagem\BackInstrucoes.png" />
+    <None Include="wwwroot\imagem\casa-de-madeira.png" />
+    <None Include="wwwroot\imagem\chaleColorido.jpg" />
+    <None Include="wwwroot\imagem\formoso.jpg" />
+    <None Include="wwwroot\imagem\formosoVistoDeCima.png" />
+    <None Include="wwwroot\imagem\Header1.jpg" />
+    <None Include="wwwroot\imagem\localchalesSitioFormoso.png" />
+    <None Include="wwwroot\imagem\LocalizaçãoChale.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.27">
       <PrivateAssets>all</PrivateAssets>
