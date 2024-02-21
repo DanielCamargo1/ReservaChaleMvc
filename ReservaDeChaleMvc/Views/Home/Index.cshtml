@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reserva de Chalé - Formoso sitio das águias</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
@@ -28,10 +28,9 @@
             justify-content: space-between;
         }
 
-
         .Aguia img {
-                max-width: 40%;
-                height: auto;
+            max-width: 40%;
+            height: auto;
         }
 
         h1 {
@@ -58,23 +57,39 @@
         }
 
         ul {
-            position:relative;
+            position: relative;
             max-width: 800px;
             margin: 0 auto;
             margin-top: -350px;
         }
 
-        li{
-            color:aliceblue;
-            font-size:15px;
+        li {
+            color: aliceblue;
+            font-size: 15px;
         }
 
         strong {
             color: #c07e02;
         }   
 
-        h5{
-            text-align:center;  
+        h5 {
+            text-align: center;  
+        }
+
+        .chales {
+            align-items: center;
+            margin-top: 14%;
+        }
+
+        .card {
+            display: inline-block;
+            margin: auto;
+            padding: 1%;
+            width: 55%;
+            align-content: stretch;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -87,7 +102,7 @@
         </div>
     </header>
     <main>
-        <h1>Reserva de Chalés </h1>
+        <h1>Reserva de Chalés</h1>
         <p class="paragrafo"><strong>Deus Abençoe!</strong> Estamos comprometidos em proporcionar uma estadia aos nossos queridos irmãos nos chalés. Para garantir uma gestão eficiente, siga o passo a passo abaixo:</p>
         <img src="imagem/BackInstrucoes.png" alt="imagemBackgroundDasInstruções" class="backInstrucoes">
         <ul class="textoInstrucoes">
@@ -107,45 +122,219 @@
                 <strong>Desfrute da Estadia:</strong> Chegue ao Formoso Sítio das Águias no dia agendado e desfrute de uma estadia abençoada e aconchegante nos chalés.
             </li>
         </ul>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card" style="width: 18rem;">
-                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
+        <div class="chales">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
                         <div class="card-body">
                             <h5 class="card-title">Chalé Fé</h5>
-                            <a href="#" class="btn btn-primary text-center">Reservar</a>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card" style="width: 18rem;">
-                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
                         <div class="card-body">
-                            <h5 class="card-title">Chalé Fé</h5>
-                            <a href="#" class="btn btn-primary text-center">Reservar</a>
+                            <h5 class="card-title">Chalé Amor</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
                         </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                        <div class="card" style="width: 18rem;">
-                            <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
-                            <div class="card-body">
-                                <h5 class="card-title">Chalé Fé</h5>
-                                <a href="#" class="btn btn-primary text-center">Reservar</a>
-                            </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Rosa De Saron</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
                 </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Estrela Da Manhã</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Vale De Jaboque</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Luz</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Esperança</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Betseda</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Coluna De Fogo</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Luz Do Mundo</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Graça</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Companheirismo</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Paz</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Jordão</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Jerusalém</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Cantico</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Belém</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Monte Sinai</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Monte Carmelo</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Luz Do Mundo</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Rosa De Saron</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Rosa De Saron</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top" alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Rosa De Saron</h5>
+                            <a href="#" class="btn btn-primary btn-block">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+               <p><a href="#">SOU ADMINISTRADOR</a></p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-        
-    </main>
+    </main
         
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
