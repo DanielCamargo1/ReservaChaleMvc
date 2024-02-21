@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReservaDeChaleMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+376a8eb79c7f0bc22de2420df8a600f57296d666")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cac4d920ecfdefde0648ab84a56415bfdf040a99")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReservaDeChaleMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReservaDeChaleMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
