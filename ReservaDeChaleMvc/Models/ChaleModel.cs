@@ -10,7 +10,6 @@ namespace ReservaDeChaleMvc.Models
         public string NomeUsuario { get; set; }
         public int? QuantidadeDePessoa { get; set; }
         [Required(ErrorMessage = "Precisa que um chale Seja informado")]
-        public string TelefoneParaContato { get; set; }
         public NomeDosChales Chale { get; set; }
     }
     public enum NomeDosChales

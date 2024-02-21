@@ -26,8 +26,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Reservas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
+[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Reservar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Reserva/Reservar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVxSZXNlcnZhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Shared/Error.cshtml]
