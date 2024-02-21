@@ -39,7 +39,7 @@
             margin-top: 50px;
             color: #022601;
             font-size: 40px;
-        }
+        }   
 
         .paragrafo {
             max-width: 800px;
@@ -61,7 +61,7 @@
             position:relative;
             max-width: 800px;
             margin: 0 auto;
-            margin-top: -390px;
+            margin-top: -350px;
         }
 
         li{
@@ -72,6 +72,10 @@
         strong {
             color: #c07e02;
         }   
+
+        h5{
+            text-align:center;  
+        }
     </style>
 </head>
 <body>
@@ -83,7 +87,7 @@
         </div>
     </header>
     <main>
-        <h1>Reserva de Chalés</h1>
+        <h1>Reserva de Chalés </h1>
         <p class="paragrafo"><strong>Deus Abençoe!</strong> Estamos comprometidos em proporcionar uma estadia aos nossos queridos irmãos nos chalés. Para garantir uma gestão eficiente, siga o passo a passo abaixo:</p>
         <img src="imagem/BackInstrucoes.png" alt="imagemBackgroundDasInstruções" class="backInstrucoes">
         <ul class="textoInstrucoes">
@@ -103,8 +107,46 @@
                 <strong>Desfrute da Estadia:</strong> Chegue ao Formoso Sítio das Águias no dia agendado e desfrute de uma estadia abençoada e aconchegante nos chalés.
             </li>
         </ul>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Fé</h5>
+                            <a href="#" class="btn btn-primary text-center">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Fé</h5>
+                            <a href="#" class="btn btn-primary text-center">Reservar</a>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="~/imagem/chaleColorido.jpg" class="card-img-top " alt="ImagemDoChale">
+                            <div class="card-body">
+                                <h5 class="card-title">Chalé Fé</h5>
+                                <a href="#" class="btn btn-primary text-center">Reservar</a>
+                            </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
     </main>
-
+        
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
