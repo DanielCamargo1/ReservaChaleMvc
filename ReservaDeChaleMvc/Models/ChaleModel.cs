@@ -8,8 +8,10 @@ namespace ReservaDeChaleMvc.Models
         public int Id { get; set; }
         [Required(ErrorMessage = "Precisa que um nome Seja digitado")]
         public string NomeUsuario { get; set; }
+        [Required(ErrorMessage = " Precisa informar o Número de hospedes")]
         public int? QuantidadeDePessoa { get; set; }
-        [Required(ErrorMessage = "Precisa que um chale Seja informado")]
+        [Required(ErrorMessage = " Precisa informar Telefone para contatos")]
+        public string numeroDeTelefone { get; set; }
         public NomeDosChales Chale { get; set; }
     }
     public enum NomeDosChales

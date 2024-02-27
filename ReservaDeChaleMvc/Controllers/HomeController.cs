@@ -27,6 +27,20 @@ namespace ReservaDeChaleMvc.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Administrador()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Reservar(ChaleModel reserva)
+        {
+            _reserva.Reserve.Add(reserva);
+            _reserva.SaveChanges();
+            return RedirectToAction("index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
