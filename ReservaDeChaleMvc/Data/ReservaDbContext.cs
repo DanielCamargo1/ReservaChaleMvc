@@ -11,5 +11,6 @@ namespace ReservaDeChaleMvc.Data
         }
 
         public DbSet<ChaleModel> Reserve { get; set; }
+        public DbSet<LoginModel> User { get; set; }
     }
 }

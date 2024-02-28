@@ -26,13 +26,7 @@ namespace ReservaDeChaleMvc.Controllers
         {
             return View();
         }
-
-        [HttpGet]
-        public IActionResult Administrador()
-        {
-            return View();
-        }
-
+    
         [HttpPost]
         public IActionResult Reservar(ChaleModel reserva)
         {
