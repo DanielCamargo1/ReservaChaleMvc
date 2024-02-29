@@ -18,6 +18,12 @@ namespace ReservaDeChaleMvc.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Cadastros()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Entrar(LoginModel log)
         {   
@@ -25,11 +31,15 @@ namespace ReservaDeChaleMvc.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    if(log.Login == "hebreus" && log.Senha == 138)
+                    {
+                        return View("Cadastros");
+                    }
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Login");
+                    return View("Index");
                 }
             }
             catch(Exception erro)

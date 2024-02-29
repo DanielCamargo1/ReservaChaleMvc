@@ -30,9 +30,13 @@ namespace ReservaDeChaleMvc.Controllers
         [HttpPost]
         public IActionResult Reservar(ChaleModel reserva)
         {
-            _reserva.Reserve.Add(reserva);
-            _reserva.SaveChanges();
-            return RedirectToAction("index");
+            if (ModelState.IsValid)
+            {
+                _reserva.Reserve.Add(reserva);
+                _reserva.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
+            else { return View("Index"); }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
