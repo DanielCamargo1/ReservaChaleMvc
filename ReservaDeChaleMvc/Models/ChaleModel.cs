@@ -12,6 +12,10 @@ namespace ReservaDeChaleMvc.Models
         public int? QuantidadeDePessoa { get; set; }
         [Required(ErrorMessage = " Precisa informar Telefone para contatos")]
         public string numeroDeTelefone { get; set; }
+        [Required(ErrorMessage = "Adicione um Login")]
+        public string Login { get; set; }
+        [Required(ErrorMessage = "Adicione uma Senha")]
+        public int Senha { get; set; }
         public NomeDosChales Chale { get; set; }
     }
     public enum NomeDosChales

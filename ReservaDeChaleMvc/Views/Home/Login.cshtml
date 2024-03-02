@@ -1,4 +1,4 @@
-﻿@model LoginModel
+﻿@model ChaleModel
 
 @{
     ViewData["title"] = "Administradores Chalés";
@@ -8,21 +8,21 @@
     <div class="mb-5 text-center">
         <h1 class="text-dark"> Login Administradores Chalés </h1>
     </div>
-    <form method="post" asp-controller="Login" asp-action="Entrar">
+    <form method="post" asp-controller="Home" asp-action="Cadastros">
         <div class="mb-3">
             <label for="Login" class="form-label text-light">Login:</label>
-            <input type="text" asp-for="Login" class="form-control" placeholder="Adicione o Login:" id="Login">
+            <input type="text" asp-for="Login" class="form-control" placeholder="Adicione o Login:" >
             @Html.ValidationMessageFor(x=> x.Login)
         </div>
 
         <div class="mb-3">
             <label for="Senha" class="form-label text-light">Senha:</label>
-            <input type="password" asp-for="Senha" class="form-control" placeholder="Adicione a Senha: " id="Senha">
+            <input type="password" asp-for="Senha" class="form-control" placeholder="Adicione a Senha: " >
             @Html.ValidationMessageFor(x => x.Senha)
         </div>
 
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-success w-50">Entrar</button>
+            <button type="submit" class="btn btn-success w-50" asp-controller="Home" asp-action="Cadastros">Entrar</button>
             <a class="btn btn-primary w-50" asp-controller="Home" asp-action="Index">Voltar</a>
         </div>
     </form>

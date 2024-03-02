@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\danid\Desktop\reservaMvc\ReservaDeChaleMvc\ReservaDeChaleMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Cadastros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Privacy.cshtml]
@@ -28,14 +36,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Home/Reservar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZhci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Login/Cadastros.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2FkYXN0cm9zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danid/Desktop/reservaMvc/ReservaDeChaleMvc/ReservaDeChaleMvc/Views/Shared/Error.cshtml]

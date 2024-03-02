@@ -16,6 +16,7 @@ namespace ReservaDeChaleMvc.Controllers
             _reserva = reserva;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -26,6 +27,19 @@ namespace ReservaDeChaleMvc.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Cadastros()
+        {
+            
+            return View();
+        }
     
         [HttpPost]
         public IActionResult Reservar(ChaleModel reserva)
@@ -34,17 +48,38 @@ namespace ReservaDeChaleMvc.Controllers
             {
                 _reserva.Reserve.Add(reserva);
                 _reserva.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return View("Index");
             }
-            else { return View("Index"); }
+            else 
+            {
+                return BadRequest();
+            }
         }
+
+        [HttpPost]
+        public IActionResult Login(ChaleModel login)
+        {
+            if (ModelState.IsValid)
+            {
+                if(login.Login == "hebreus" && login.Senha == 138) 
+                {
+                    return View("Cadastros");
+                }
+                return View("Index");
+            }
+            return BadRequest();
+        }
+
+
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-       
     }
 }
