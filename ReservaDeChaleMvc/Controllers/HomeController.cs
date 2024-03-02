@@ -37,8 +37,8 @@ namespace ReservaDeChaleMvc.Controllers
         [HttpGet]
         public IActionResult Cadastros()
         {
-            
-            return View();
+            IEnumerable<ChaleModel> reservas = _reserva.Reserve;
+            return View(reservas);
         }
     
         [HttpPost]
@@ -65,9 +65,15 @@ namespace ReservaDeChaleMvc.Controllers
                 {
                     return View("Cadastros");
                 }
-                return View("Index");
+                else
+                {
+                    return View("Index");
+                }
             }
-            return BadRequest();
+            else
+            {
+                return BadRequest();
+            }
         }
 
 
